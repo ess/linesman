@@ -1,5 +1,3 @@
-require 'linesman/version'
-
 module Linesman
   def self.within_bounds?(options = {}, &block)
     at_least_one = [:exactly, :min, :max]
